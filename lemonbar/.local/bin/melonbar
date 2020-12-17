@@ -9,7 +9,7 @@
 # pgrep -x lemonbar > /dev/null && pkill -x lemonbar &
 
 
-if [ "$USER" == "simon"]; then
+if [ "$USER" = "simon"]; then
     font="SourceCodeProSemiBold-13"
     icon_font="FontAwesome-13"
     geometry="x28"

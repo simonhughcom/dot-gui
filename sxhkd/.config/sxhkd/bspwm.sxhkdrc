@@ -25,6 +25,9 @@ super + BackSpace
 super + bracket{left,right}
     bspc desktop -f {prev,next}.occupied.local
 
+super + shift + bracket{left,right}
+    bspc desktop -f {prev,next}.local
+
 # Change focus or swap nodes for both tiled and monocle layout
 super + {_, shift +} {Left,Down,Up,Right}
     bspwm_focus_node -{f,s} {left,down,up,right}

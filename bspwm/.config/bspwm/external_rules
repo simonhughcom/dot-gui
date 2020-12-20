@@ -41,4 +41,12 @@ case "$instance" in
         echo "sticky=on"
         echo "border=off"
     ;;
+    appmenu)
+        xdotool windowmove $wid 30% 30%
+        xdotool windowsize $wid 800 400
+
+        echo "state=floating"
+        echo "sticky=on"
+        echo "border=off"
+    ;;
 esac

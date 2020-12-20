@@ -53,7 +53,7 @@ super + alt + p
 
 # Dmenu
 super + a
-    scratchpad -c appmenu -t apps -e appmenu -C
+    scratchpad -c app_menu -t apps -e appmenu -C
 ctrl + alt + Delete
     scratchpad -c powermenu -t Power -e powermenu -C
 super + {_,shift +} c
@@ -63,7 +63,7 @@ super + s
 super + shift + backslash
     streammenu
 super + shift + p
-    scratchpad -c passmenu -t Pass -e "pass menu" -C
+    scratchpad -c pass_menu -t Pass -e "pass menu" -C
 super + {_,shift +} h
     mpv-history -{t,p} -d
 

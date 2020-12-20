@@ -53,7 +53,7 @@ super + alt + p
 
 # Dmenu
 super + a
-    dmenu_run
+    scratchpad -c appmenu -t apps -e appmenu -C
 ctrl + alt + Delete
     scratchpad -c powermenu -t Power -e powermenu -C
 super + {_,shift +} c
